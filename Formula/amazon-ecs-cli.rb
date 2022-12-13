@@ -5,7 +5,7 @@ class AmazonEcsCli < Formula
 
   # These two values must change when new ecs-cli versions are released
   version "1.22.0+ap"
-  sha256 "d5da699cb80293fa207951a9671816809f8afa9b3ff749a9c56e35a648e36a71"
+  sha256 "6a0183a2a269a8c765d2e0283ae6de2e913866f188d413a388299b290796c079"
 
   license "Apache-2.0"
 
