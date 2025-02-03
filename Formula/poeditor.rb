@@ -4,9 +4,9 @@ require_relative "lib/private_strategy"
 class Poeditor < Formula
   desc "POEditor CLI tool"
   homepage "https://github.com/ArtProcessors/ap-poeditor-tool-macos"
-  url "https://github.com/ArtProcessors/ap-poeditor-tool-macos/releases/download/2.11.1/poeditor.zip", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  version "2.11.1"
-  sha256 "ee7f3658277a9d56f63cb476495d9b4eac7260d7feed78834c8775dd9786c576"
+  url "https://github.com/ArtProcessors/ap-poeditor-tool-macos/releases/download/2.11.2/poeditor.zip", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  version "2.11.2"
+  sha256 "efd4e4e1db102065a4356b6745ff779e2e3072788d82f743db157d28b504b380"
 
   def install
     bin.install "poeditor"
