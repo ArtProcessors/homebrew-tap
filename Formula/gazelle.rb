@@ -4,9 +4,9 @@ require_relative "lib/private_strategy"
 class Gazelle < Formula
   desc "Gazelle Schema code generator and validator"
   homepage "https://github.com/ArtProcessors/ap-gazelle-schema-mobile"
-  url "https://github.com/ArtProcessors/ap-gazelle-schema-mobile/releases/download/2.8.0/gazelle.zip", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  version "2.8.0"
-  sha256 "287969686192d27c606eebad907117288a0a78f1c1870102c26f5a6e43711e00"
+  url "https://github.com/ArtProcessors/ap-gazelle-schema-mobile/releases/download/2.9.0/gazelle.zip", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  version "2.9.0"
+  sha256 "da312c523fd639d90afe5d4f5a7120d8a5c02d64e04cdc76ab175b730e76fa86"
 
   def install
     bin.install "gazelle"
